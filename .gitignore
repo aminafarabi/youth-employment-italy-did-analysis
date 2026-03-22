@@ -42,6 +42,12 @@ vignettes/*.pdf
 # pkgdown site
 docs/
 
+*_Y.csv
+*Q1.csv
+*Q2.csv
+*Q3.csv
+*Q4.csv
+
 # translation temp files
 po/*~
 
