@@ -53,10 +53,3 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
-
-# Ignore large raw data files
-*_Y.csv
-*Q1.csv
-*Q2.csv
-*Q3.csv
-*Q4.csv
