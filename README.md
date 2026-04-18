@@ -9,9 +9,7 @@ This project analyzes the causal effect of the 2008 Global Financial Crisis on y
 **Methodology:**  
 1. **Sample Construction:** Restricted to young (15–24) and prime-age (30–50) workers, excluding 2008 as a transition year  
 2. **Main Model:** Difference-in-Differences regression  
-   \[
-   Y_{it} = \beta_0 + \beta_1\text{Treat}_i + \beta_2\text{Post}_t + \beta_3(\text{Treat}_i\times \text{Post}_t) + \mathbf{X}_{it}\gamma + \epsilon_{it}
-   \]
+  Y_it = β0 + β1*Treat_i + β2*Post_t + β3*(Treat_i × Post_t) + X_it*γ + ε_it
 3. **Robustness Checks:**  
    - Added demographic controls (sex, age)  
    - Event study to validate parallel trends  
@@ -29,7 +27,7 @@ This project analyzes the causal effect of the 2008 Global Financial Crisis on y
 | Gender heterogeneity (young women vs. young men) | Not significant | p > 0.1 |
 
 ### Parallel employment Trends by Age Group (2004–2010)
-![Employment trends](output/figure1_parallel_trends.png)
+<img src="output/figure1_parallel_trends.png" alt="Employment trends" width="500"/>
 
 ### Event Study Estimates (Relative to 2008)
-![Event study](output/event_study_results.png)
+<img src="output/event_study_results.png" alt="Event study" width="500"/>
