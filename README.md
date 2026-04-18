@@ -30,4 +30,4 @@ This project analyzes the causal effect of the 2008 Global Financial Crisis on y
 <img src="output/figure1_parallel_trends.png" alt="Employment trends" width="500"/>
 
 ### Event Study Estimates (Relative to 2008)
-<img src="output/event_study_results.png" alt="Event study" width="500"/>
+<img src="output/event_study_plot.png" alt="Event study" width="500"/>
